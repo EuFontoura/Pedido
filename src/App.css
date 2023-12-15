@@ -1,0 +1,40 @@
+
+
+body {
+  translate: 80vh 35vh;
+  background-color: #EEEEEE;
+  overflow: hidden;
+}
+
+.botão {
+  padding: 1% 2.5%;
+  cursor: pointer;
+  background-color: #B0CFEE;
+  color: #155793;
+  border-radius: 10px;
+}
+
+#botãonão {
+  translate: 15vh;
+  background-color: rgb(253, 54, 54);
+  color: white;
+}
+#botãosim {
+  translate: 3vh;
+  background-color: rgb(14, 221, 14);
+  color: white;
+}
+
+#respostasim{
+  translate: -75vh 7vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  transition: all.5s;
+  color: #155793;
+  top: 70%;
+}
